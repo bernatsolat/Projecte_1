@@ -1,94 +1,56 @@
-﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class JohnMovement : MonoBehaviour
 {
-
-    public bool mobing => _moving;
-
-
-    [SerializeField]
-    private float Speed = 1;
-    private float JumpSpeed = 5;
-    float timeToPike = 0.4f;
-    float JumpHeight = 2.5f;
-    private bool can;
-
-    private bool _moving;
-    PlayerInput _input;
-    Rigidbody2D _rigidbody;
-
-  
-
-    void OnEnable()
-    {
-      
-        GroundCollider.isGrounded += canJump;
-    }
-     
+    public float Speed;
     
-    void Start()
-    {
-        _input = GetComponent<PlayerInput>();
-        _rigidbody = GetComponent<Rigidbody2D>();
+    public GameObject BulletPrefab;
 
+    private Rigidbody2D Rigidbody2D;
+    private Animator Animator;
+    private float Horizontal;
+    private float LastShoot;
+    private int Health = 5;
+
+    private void Start()
+    {
+        Rigidbody2D = GetComponent<Rigidbody2D>();
+        Animator = GetComponent<Animator>();
     }
 
-    void Update()
+    private void Update()
     {
-        Move();
-        Jump();
-    }
+        // Movimiento
+        Horizontal = Input.GetAxisRaw("Horizontal");
 
-    private void Move()
-    {
+        if (Horizontal < 0.0f) transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
+        else if (Horizontal > 0.0f) transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
 
-        Vector2 direction = new Vector2(_input.MovementHorizontal * Speed, _rigidbody.velocity.y) ;
+        Animator.SetBool("running", Horizontal != 0.0f);
+        Animator.SetBool("attacking", Horizontal != 0.0f);
 
-        _rigidbody.velocity = direction;
-        _moving = direction.magnitude > 0.01f;
-    }
 
-    private void Jump() 
-    {
-        if (can) 
+        // Detectar Suelo
+        // Debug.DrawRay(transform.position, Vector3.down * 0.1f, Color.red);
+
+
+        // Disparar
+        /*if (Input.GetKey(KeyCode.Space) && Time.time > LastShoot + 0.25f)
         {
-            if (Input.GetKeyDown(KeyCode.Space)) 
-            {
-                SetGravity();
-                _rigidbody.velocity = Vector2.up * JumpSpeed;
-                can = false;
-            }
-            if (Input.GetKeyUp(KeyCode.Space))
-            {
-                _rigidbody.velocity = new Vector2(_rigidbody.velocity.x, 0f);
-                SetGravity();
-            }
-        }   
+            Shoot();
+            LastShoot = Time.time;
+        }*/
     }
-    
 
-    private void canJump(bool canIJump)
+    private void FixedUpdate()
     {
-        can = canIJump;
+        Rigidbody2D.velocity = new Vector2(Horizontal * Speed, Rigidbody2D.velocity.y);
     }
-    void SetGravity()
+    public void Hit()
     {
-
-        if (JumpSpeed>0)
-        {
-            _rigidbody.gravityScale = ((-2 * JumpHeight / (timeToPike * timeToPike)) / Physics2D.gravity.y);
-        }
-        else
-        {
-            _rigidbody.gravityScale =  -1 * ((-2 * JumpHeight / (timeToPike * timeToPike)) / Physics2D.gravity.y);
-        }
-       
-
+        Health -= 1;
+        if (Health == 0) Destroy(gameObject);
     }
-
-   
-
 }

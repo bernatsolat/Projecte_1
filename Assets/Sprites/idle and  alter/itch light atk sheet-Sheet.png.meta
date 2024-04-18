@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a2db951ef40e9884aab6dd55b805d328
+guid: 81498e587addc484ab47b598253dbfa3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 40
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tileset_0
+      name: itch light atk sheet-Sheet_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 112
-        width: 64
-        height: 76
+        x: 17
+        y: 20
+        width: 28
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fafe36f1e46a11c4a80f03e5ac801266
-      internalID: 1692681261
+      spriteID: 0e9d593ad7be0914883e738321282a5b
+      internalID: -328653521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_1
+      name: itch light atk sheet-Sheet_1
       rect:
         serializedVersion: 2
-        x: 96
-        y: 113
-        width: 16
-        height: 76
+        x: 99
+        y: 20
+        width: 23
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c976bc2a4644c9d40a002ffe23bbd700
-      internalID: 1470495386
+      spriteID: 770b5edf6a4b5a94b9ccb2e47b7f82c9
+      internalID: 1588834205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_2
+      name: itch light atk sheet-Sheet_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 112
-        width: 22
-        height: 76
+        x: 179
+        y: 20
+        width: 43
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfd45c5e1daad9942bd0545227858f0c
-      internalID: 1843153981
+      spriteID: 41b91a7d22d686945b7ac5472a43b74c
+      internalID: 523739069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_3
+      name: itch light atk sheet-Sheet_3
       rect:
         serializedVersion: 2
-        x: 160
-        y: 112
-        width: 32
-        height: 64
+        x: 256
+        y: 20
+        width: 46
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4668bd8f29b4e1e45a01b473aa2f17e0
-      internalID: -1859971003
+      spriteID: 7f16291749b2ee54fb9c16f876027c3e
+      internalID: -1649763237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_4
+      name: itch light atk sheet-Sheet_4
       rect:
         serializedVersion: 2
-        x: 208
-        y: 112
-        width: 32
-        height: 64
+        x: 336
+        y: 20
+        width: 38
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,19 +195,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 883fc966ae1bb304e8c7cbb893b36b2f
-      internalID: 183253949
+      spriteID: 46c88db8a6f3ee5478edc95b9d911d54
+      internalID: 1222235188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_5
+      name: itch light atk sheet-Sheet_5
       rect:
         serializedVersion: 2
-        x: 432
-        y: 112
-        width: 16
+        x: 415
+        y: 20
+        width: 27
         height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -216,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e99dede9d2d474d44b5f951d41914f9a
-      internalID: -726509365
+      spriteID: a5a03cad38d3964449002aaf63cce56d
+      internalID: -1073744509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_6
+      name: itch light atk sheet-Sheet_6
       rect:
         serializedVersion: 2
-        x: 464
-        y: 128
-        width: 16
-        height: 22
+        x: 502
+        y: 20
+        width: 21
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23fe74e076d3dd84083442aa1134f216
-      internalID: -2093502492
+      spriteID: f0fd466292245f04fb53a432697f5487
+      internalID: -797512657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_7
+      name: itch light atk sheet-Sheet_7
       rect:
         serializedVersion: 2
-        x: 496
-        y: 128
-        width: 16
-        height: 22
+        x: 581
+        y: 20
+        width: 21
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,19 +258,103 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e965cdd1eb841ad49af0282dd3520c8b
-      internalID: -318674560
+      spriteID: 1279f634a57d60f439c3f93d766e6ca2
+      internalID: 1864328287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_8
+      name: itch light atk sheet-Sheet_8
       rect:
         serializedVersion: 2
-        x: 528
-        y: 112
-        width: 16
+        x: 664
+        y: 20
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690661b7d66493649bcd6756b60a3689
+      internalID: -1297754883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch light atk sheet-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 20
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e31d4487259ff64e8d778f57860b8ea
+      internalID: -1591424190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch light atk sheet-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 20
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f14f725fe4d23499939cba01d74cf6
+      internalID: -204848099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch light atk sheet-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 20
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b6b9fbaedc32847a646128156a1e4c
+      internalID: -1609409983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch light atk sheet-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 20
+        width: 26
         height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -279,82 +363,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7794497edf11b447a926ecf0eeacbb2
-      internalID: 536464905
+      spriteID: 24f9eb40a17ffac4a83c006d8c92f617
+      internalID: -227319158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_9
+      name: itch light atk sheet-Sheet_13
       rect:
         serializedVersion: 2
-        x: 272
-        y: 80
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85f85e77d67a72549b1d477e3b08de6b
-      internalID: 1673897915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_10
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 99
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e729521564fee9744ae55fdc95d2ea9e
-      internalID: 644610669
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_11
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 80
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 80c09263191bbef4c8dbf8e4fdfa7caa
-      internalID: -439085110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_12
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 96
-        width: 16
+        x: 1063
+        y: 20
+        width: 21
         height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -363,19 +384,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e23206be808a22b49a971001e325aeba
-      internalID: 346400797
+      spriteID: c74593efa31b8af46ad5d8e7bf755b9b
+      internalID: -1515508349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_13
+      name: itch light atk sheet-Sheet_14
       rect:
         serializedVersion: 2
-        x: 560
-        y: 96
-        width: 16
+        x: 1146
+        y: 20
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790b238b28a7ef04f8a52b128e1a64fd
+      internalID: 2140117818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch light atk sheet-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 20
+        width: 21
         height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -384,19 +426,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d342b292ac1ff24883cd0279fb700c2
-      internalID: -94349654
+      spriteID: 6737f55340772b646b45ab775a210a83
+      internalID: -2039160431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_14
+      name: itch light atk sheet-Sheet_16
       rect:
         serializedVersion: 2
-        x: 16
-        y: 64
-        width: 16
+        x: 1296
+        y: 20
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd54407b1e267342a2860b3a144ec5e
+      internalID: 2088474217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch light atk sheet-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 20
+        width: 46
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -405,20 +468,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79f3ccaa430100043b898c4d39bd193a
-      internalID: 916201139
+      spriteID: 2f435408cf6c06a48acacb4d8eb7c41f
+      internalID: 706977910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_15
+      name: itch light atk sheet-Sheet_18
       rect:
         serializedVersion: 2
-        x: 48
-        y: 64
+        x: 1454
+        y: 20
         width: 32
-        height: 32
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,20 +489,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c161e8bab965dc4cb8ab5ce3b81043c
-      internalID: -498960526
+      spriteID: 8ef7bb92167af8e439ea455dbb3b72ba
+      internalID: -1498529931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_16
+      name: itch light atk sheet-Sheet_19
       rect:
         serializedVersion: 2
-        x: 112
-        y: 64
-        width: 16
-        height: 32
+        x: 1535
+        y: 20
+        width: 31
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -447,20 +510,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e209bba0b7be0bb4780db0613980e1e0
-      internalID: 109071717
+      spriteID: d9759409305c0f1429d32abad6f5ae59
+      internalID: -1381696947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_17
+      name: itch light atk sheet-Sheet_20
       rect:
         serializedVersion: 2
-        x: 160
-        y: 64
-        width: 48
-        height: 32
+        x: 1615
+        y: 20
+        width: 30
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,125 +531,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36011d122ca91b043bddc246e9f7ebe6
-      internalID: -567158636
+      spriteID: f0373124ca0060d4aa03dcb9776c24a7
+      internalID: 703734658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_18
+      name: itch light atk sheet-Sheet_21
       rect:
         serializedVersion: 2
-        x: 224
-        y: 64
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64d39bd6d509de241ab990876cb43f8e
-      internalID: -1553988520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_19
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 48
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 967b836e3bafaa34fad50c41e9402954
-      internalID: 386156691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_20
-      rect:
-        serializedVersion: 2
-        x: 496
-        y: 48
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4dbf5edaed30bc449b7fa32435285c8e
-      internalID: 214669628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_21
-      rect:
-        serializedVersion: 2
-        x: 273
-        y: 48
-        width: 11
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f76f8b06cb3ed648bfd6156bd15c847
-      internalID: -922621763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_22
-      rect:
-        serializedVersion: 2
-        x: 291
-        y: 48
-        width: 11
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87f43af99f449f54c9afb09d9d453843
-      internalID: -1949058332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_23
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 16
+        x: 1694
+        y: 20
         width: 32
-        height: 39
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -594,20 +552,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 870fa9383f4de6f47a126e113289bf52
-      internalID: -64858869
+      spriteID: 60f365b58f7fcb84d9609dcadc1955b1
+      internalID: 1618710026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_24
+      name: itch light atk sheet-Sheet_22
       rect:
         serializedVersion: 2
-        x: 432
-        y: 32
-        width: 16
-        height: 32
+        x: 1778
+        y: 20
+        width: 26
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -615,20 +573,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf5c2b2736ed8364ca702c84bda456f0
-      internalID: -1643089192
+      spriteID: 5e85dbfb444cac94b950989932ab98f0
+      internalID: 1045250513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_25
+      name: itch light atk sheet-Sheet_23
       rect:
         serializedVersion: 2
-        x: 528
-        y: 32
-        width: 16
-        height: 32
+        x: 1860
+        y: 20
+        width: 20
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -636,20 +594,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dce4cee9299ed04fb29ea07820867af
-      internalID: 1757577740
+      spriteID: 18f4d676772a6054db1e3eb64d6daece
+      internalID: -1302437353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_26
+      name: itch light atk sheet-Sheet_24
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 32
+        x: 1940
+        y: 20
+        width: 18
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,20 +615,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9b4e09b74096e84a91759cde88a7623
-      internalID: -1377072972
+      spriteID: 43db397bee36df94c9490e59196894aa
+      internalID: -1706494121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_27
+      name: itch light atk sheet-Sheet_25
       rect:
         serializedVersion: 2
-        x: 48
-        y: 16
-        width: 48
-        height: 32
+        x: 2019
+        y: 20
+        width: 17
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -678,134 +636,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44349bcbc95cafd44a02e954641bdf56
-      internalID: 1823452730
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_28
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 16
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20548e555eb696547844fac6e81efc81
-      internalID: 477347306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_29
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 16
-        width: 48
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c460fbb261a17c43a80873f9ba10e56
-      internalID: 1195694624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_30
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 16
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3f1fe7cbe5f0e2449bd84dc4235ff0f
-      internalID: 449444084
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_31
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 16
-        width: 32
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2e6d9f95550d484199d4552bb69ed21
-      internalID: -1576287748
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_32
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 16
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a0d6e9f1dae671e4fa423bbe4d6f5cf5
-      internalID: 1625397512
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_33
-      rect:
-        serializedVersion: 2
-        x: 560
-        y: 16
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f390856c3440ce4f9b3de0803a71171
-      internalID: -134186485
+      spriteID: 38b249989605ce24aba205bf809aa3d1
+      internalID: 453758164
       vertices: []
       indices: 
       edges: []
@@ -821,40 +653,32 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      tileset_0: 1692681261
-      tileset_1: 1470495386
-      tileset_10: 644610669
-      tileset_11: -439085110
-      tileset_12: 346400797
-      tileset_13: -94349654
-      tileset_14: 916201139
-      tileset_15: -498960526
-      tileset_16: 109071717
-      tileset_17: -567158636
-      tileset_18: -1553988520
-      tileset_19: 386156691
-      tileset_2: 1843153981
-      tileset_20: 214669628
-      tileset_21: -922621763
-      tileset_22: -1949058332
-      tileset_23: -64858869
-      tileset_24: -1643089192
-      tileset_25: 1757577740
-      tileset_26: -1377072972
-      tileset_27: 1823452730
-      tileset_28: 477347306
-      tileset_29: 1195694624
-      tileset_3: -1859971003
-      tileset_30: 449444084
-      tileset_31: -1576287748
-      tileset_32: 1625397512
-      tileset_33: -134186485
-      tileset_4: 183253949
-      tileset_5: -726509365
-      tileset_6: -2093502492
-      tileset_7: -318674560
-      tileset_8: 536464905
-      tileset_9: 1673897915
+      itch light atk sheet-Sheet_0: -328653521
+      itch light atk sheet-Sheet_1: 1588834205
+      itch light atk sheet-Sheet_10: -204848099
+      itch light atk sheet-Sheet_11: -1609409983
+      itch light atk sheet-Sheet_12: -227319158
+      itch light atk sheet-Sheet_13: -1515508349
+      itch light atk sheet-Sheet_14: 2140117818
+      itch light atk sheet-Sheet_15: -2039160431
+      itch light atk sheet-Sheet_16: 2088474217
+      itch light atk sheet-Sheet_17: 706977910
+      itch light atk sheet-Sheet_18: -1498529931
+      itch light atk sheet-Sheet_19: -1381696947
+      itch light atk sheet-Sheet_2: 523739069
+      itch light atk sheet-Sheet_20: 703734658
+      itch light atk sheet-Sheet_21: 1618710026
+      itch light atk sheet-Sheet_22: 1045250513
+      itch light atk sheet-Sheet_23: -1302437353
+      itch light atk sheet-Sheet_24: -1706494121
+      itch light atk sheet-Sheet_25: 453758164
+      itch light atk sheet-Sheet_3: -1649763237
+      itch light atk sheet-Sheet_4: 1222235188
+      itch light atk sheet-Sheet_5: -1073744509
+      itch light atk sheet-Sheet_6: -797512657
+      itch light atk sheet-Sheet_7: 1864328287
+      itch light atk sheet-Sheet_8: -1297754883
+      itch light atk sheet-Sheet_9: -1591424190
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

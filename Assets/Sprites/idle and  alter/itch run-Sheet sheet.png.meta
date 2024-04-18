@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a2db951ef40e9884aab6dd55b805d328
+guid: a633a4d7bfddf92439d183fd4d8a0c31
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 40
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,55 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tileset_0
+      name: itch run-Sheet sheet_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 112
-        width: 64
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fafe36f1e46a11c4a80f03e5ac801266
-      internalID: 1692681261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_1
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 113
-        width: 16
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c976bc2a4644c9d40a002ffe23bbd700
-      internalID: 1470495386
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_2
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 112
+        x: 19
+        y: 21
         width: 22
-        height: 76
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,61 +111,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfd45c5e1daad9942bd0545227858f0c
-      internalID: 1843153981
+      spriteID: e3e90cec70895494cb83e9b31146cbff
+      internalID: 179595724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_3
+      name: itch run-Sheet sheet_1
       rect:
         serializedVersion: 2
-        x: 160
-        y: 112
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4668bd8f29b4e1e45a01b473aa2f17e0
-      internalID: -1859971003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_4
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 112
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 883fc966ae1bb304e8c7cbb893b36b2f
-      internalID: 183253949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_5
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 112
-        width: 16
+        x: 98
+        y: 24
+        width: 24
         height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -216,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e99dede9d2d474d44b5f951d41914f9a
-      internalID: -726509365
+      spriteID: 0403fd884cac23c47976457bebfc13e1
+      internalID: 628259833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_6
+      name: itch run-Sheet sheet_2
       rect:
         serializedVersion: 2
-        x: 464
-        y: 128
-        width: 16
-        height: 22
+        x: 178
+        y: 27
+        width: 23
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23fe74e076d3dd84083442aa1134f216
-      internalID: -2093502492
+      spriteID: 6351db65fb9bbf5449d5a7b1710a92ba
+      internalID: 306594258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_7
+      name: itch run-Sheet sheet_3
       rect:
         serializedVersion: 2
-        x: 496
-        y: 128
-        width: 16
-        height: 22
+        x: 258
+        y: 29
+        width: 24
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,19 +174,166 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e965cdd1eb841ad49af0282dd3520c8b
-      internalID: -318674560
+      spriteID: a076f03a18895c64bac0a4741766ad93
+      internalID: -1845581075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_8
+      name: itch run-Sheet sheet_4
       rect:
         serializedVersion: 2
-        x: 528
-        y: 112
+        x: 339
+        y: 27
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1aee1724e8c4848bc153a8ccc5f6bc
+      internalID: 1660871867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_5
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 23
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb02cc00bbdf30640971572a72e968bb
+      internalID: -1461210894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_6
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 21
         width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b11fb609c5391048a2d0c3238da6fec
+      internalID: -998001293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_7
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 21
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9297d3ece85c28b4eb15059f7b260cfa
+      internalID: 1008210906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_8
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 21
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bff933d429d3743b17dd1a6416634d
+      internalID: -610554949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_9
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 21
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36070745400179f47a9fc925d79849f7
+      internalID: -611069187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_10
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 21
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d6520966621694a85f2f7ce4ac3e20
+      internalID: 1084882780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_11
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 21
+        width: 20
         height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -279,19 +342,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7794497edf11b447a926ecf0eeacbb2
-      internalID: 536464905
+      spriteID: 2016ea1692ac2fa4cb93b8464eccb9dc
+      internalID: -179212853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_9
+      name: itch run-Sheet sheet_12
       rect:
         serializedVersion: 2
-        x: 272
-        y: 80
-        width: 32
+        x: 981
+        y: 22
+        width: 23
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -300,61 +363,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85f85e77d67a72549b1d477e3b08de6b
-      internalID: 1673897915
+      spriteID: b0d84f2df38309444a5e7be5f2995874
+      internalID: -661697301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_10
+      name: itch run-Sheet sheet_13
       rect:
         serializedVersion: 2
-        x: 320
-        y: 99
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e729521564fee9744ae55fdc95d2ea9e
-      internalID: 644610669
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_11
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 80
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 80c09263191bbef4c8dbf8e4fdfa7caa
-      internalID: -439085110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_12
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 96
-        width: 16
+        x: 1060
+        y: 24
+        width: 23
         height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -363,19 +384,82 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e23206be808a22b49a971001e325aeba
-      internalID: 346400797
+      spriteID: c9968e5b66206fd44ad8742414188e77
+      internalID: -731013841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_13
+      name: itch run-Sheet sheet_14
       rect:
         serializedVersion: 2
-        x: 560
-        y: 96
-        width: 16
+        x: 1139
+        y: 27
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcbcabbd4c5b6a48abd9ef89fc33150
+      internalID: -542479849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 29
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0420cbb6c22a5d4ca1583b020b057f3
+      internalID: 1000669038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 27
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3d4fd996a792243894a4a102985103
+      internalID: -1109731240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 23
+        width: 21
         height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -384,20 +468,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d342b292ac1ff24883cd0279fb700c2
-      internalID: -94349654
+      spriteID: 6947d2079e67c034d9618536f62ace96
+      internalID: 1246202993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_14
+      name: itch run-Sheet sheet_18
       rect:
         serializedVersion: 2
-        x: 16
-        y: 64
+        x: 1463
+        y: 21
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0a9d037e0991d4a9c67cbbad656365
+      internalID: 1347680946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 21
         width: 16
-        height: 32
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,41 +510,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79f3ccaa430100043b898c4d39bd193a
-      internalID: 916201139
+      spriteID: a872b020446f7084daa6fac2777f40a7
+      internalID: 1651091504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_15
+      name: itch run-Sheet sheet_20
       rect:
         serializedVersion: 2
-        x: 48
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c161e8bab965dc4cb8ab5ce3b81043c
-      internalID: -498960526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_16
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 64
+        x: 1624
+        y: 21
         width: 16
-        height: 32
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -447,20 +531,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e209bba0b7be0bb4780db0613980e1e0
-      internalID: 109071717
+      spriteID: 5dd734b74dbe1c74ba528bbd1cab9d46
+      internalID: -1005053149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_17
+      name: itch run-Sheet sheet_21
       rect:
         serializedVersion: 2
-        x: 160
-        y: 64
-        width: 48
-        height: 32
+        x: 1702
+        y: 21
+        width: 18
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,20 +552,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36011d122ca91b043bddc246e9f7ebe6
-      internalID: -567158636
+      spriteID: b5db780cf7357e74381bd8926d80cec4
+      internalID: -215009967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_18
+      name: itch run-Sheet sheet_22
       rect:
         serializedVersion: 2
-        x: 224
-        y: 64
-        width: 16
-        height: 32
+        x: 1781
+        y: 21
+        width: 20
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -489,20 +573,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64d39bd6d509de241ab990876cb43f8e
-      internalID: -1553988520
+      spriteID: 06f03a81a9901534caf82ba91700265c
+      internalID: -70119049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_19
+      name: itch run-Sheet sheet_23
       rect:
         serializedVersion: 2
-        x: 464
-        y: 48
-        width: 16
-        height: 32
+        x: 1861
+        y: 21
+        width: 22
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -510,302 +594,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 967b836e3bafaa34fad50c41e9402954
-      internalID: 386156691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_20
-      rect:
-        serializedVersion: 2
-        x: 496
-        y: 48
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4dbf5edaed30bc449b7fa32435285c8e
-      internalID: 214669628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_21
-      rect:
-        serializedVersion: 2
-        x: 273
-        y: 48
-        width: 11
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f76f8b06cb3ed648bfd6156bd15c847
-      internalID: -922621763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_22
-      rect:
-        serializedVersion: 2
-        x: 291
-        y: 48
-        width: 11
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87f43af99f449f54c9afb09d9d453843
-      internalID: -1949058332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_23
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 16
-        width: 32
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 870fa9383f4de6f47a126e113289bf52
-      internalID: -64858869
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_24
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 32
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf5c2b2736ed8364ca702c84bda456f0
-      internalID: -1643089192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_25
-      rect:
-        serializedVersion: 2
-        x: 528
-        y: 32
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6dce4cee9299ed04fb29ea07820867af
-      internalID: 1757577740
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_26
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b9b4e09b74096e84a91759cde88a7623
-      internalID: -1377072972
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_27
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 16
-        width: 48
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 44349bcbc95cafd44a02e954641bdf56
-      internalID: 1823452730
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_28
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 16
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20548e555eb696547844fac6e81efc81
-      internalID: 477347306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_29
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 16
-        width: 48
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c460fbb261a17c43a80873f9ba10e56
-      internalID: 1195694624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_30
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 16
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3f1fe7cbe5f0e2449bd84dc4235ff0f
-      internalID: 449444084
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_31
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 16
-        width: 32
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2e6d9f95550d484199d4552bb69ed21
-      internalID: -1576287748
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_32
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 16
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a0d6e9f1dae671e4fa423bbe4d6f5cf5
-      internalID: 1625397512
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_33
-      rect:
-        serializedVersion: 2
-        x: 560
-        y: 16
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f390856c3440ce4f9b3de0803a71171
-      internalID: -134186485
+      spriteID: 264877414b4300a41bb51da24b50a184
+      internalID: 1549589423
       vertices: []
       indices: 
       edges: []
@@ -821,40 +611,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      tileset_0: 1692681261
-      tileset_1: 1470495386
-      tileset_10: 644610669
-      tileset_11: -439085110
-      tileset_12: 346400797
-      tileset_13: -94349654
-      tileset_14: 916201139
-      tileset_15: -498960526
-      tileset_16: 109071717
-      tileset_17: -567158636
-      tileset_18: -1553988520
-      tileset_19: 386156691
-      tileset_2: 1843153981
-      tileset_20: 214669628
-      tileset_21: -922621763
-      tileset_22: -1949058332
-      tileset_23: -64858869
-      tileset_24: -1643089192
-      tileset_25: 1757577740
-      tileset_26: -1377072972
-      tileset_27: 1823452730
-      tileset_28: 477347306
-      tileset_29: 1195694624
-      tileset_3: -1859971003
-      tileset_30: 449444084
-      tileset_31: -1576287748
-      tileset_32: 1625397512
-      tileset_33: -134186485
-      tileset_4: 183253949
-      tileset_5: -726509365
-      tileset_6: -2093502492
-      tileset_7: -318674560
-      tileset_8: 536464905
-      tileset_9: 1673897915
+      itch run-Sheet sheet_0: 179595724
+      itch run-Sheet sheet_1: 628259833
+      itch run-Sheet sheet_10: 1084882780
+      itch run-Sheet sheet_11: -179212853
+      itch run-Sheet sheet_12: -661697301
+      itch run-Sheet sheet_13: -731013841
+      itch run-Sheet sheet_14: -542479849
+      itch run-Sheet sheet_15: 1000669038
+      itch run-Sheet sheet_16: -1109731240
+      itch run-Sheet sheet_17: 1246202993
+      itch run-Sheet sheet_18: 1347680946
+      itch run-Sheet sheet_19: 1651091504
+      itch run-Sheet sheet_2: 306594258
+      itch run-Sheet sheet_20: -1005053149
+      itch run-Sheet sheet_21: -215009967
+      itch run-Sheet sheet_22: -70119049
+      itch run-Sheet sheet_23: 1549589423
+      itch run-Sheet sheet_3: -1845581075
+      itch run-Sheet sheet_4: 1660871867
+      itch run-Sheet sheet_5: -1461210894
+      itch run-Sheet sheet_6: -998001293
+      itch run-Sheet sheet_7: 1008210906
+      itch run-Sheet sheet_8: -610554949
+      itch run-Sheet sheet_9: -611069187
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
